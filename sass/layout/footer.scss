@@ -1,0 +1,39 @@
+.bloc-footer{
+    background-color: #353535 ;
+    padding: 10px 20px ;
+   
+
+    &__title{
+        color: $white;
+        font-family: 'Shrikhand', cursive;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    &__icone{
+        color: $white;
+        display: flex;
+        align-items: center;
+        font-weight: bolder;
+        height: 25px;
+        
+    }
+
+    &__text{
+        color: $white;
+        margin-top: -13px;
+        
+    }
+    
+}
+.icone-espace{
+    padding: 0;
+    margin: 0;
+
+}
+.espace-text{
+    padding-left: 17px;
+}
+.espace-text2{
+    padding-left: 10px;
+}

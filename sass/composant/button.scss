@@ -1,0 +1,24 @@
+.header-buton{
+    display: block;
+    width: 220px;
+    height: 50px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 25px 25px 25px 25px;
+    background: linear-gradient(356deg,$purple 10%, $pink 80%);
+    @include box-shadow;
+
+    &:hover{
+        
+        transform: scale(1.15);
+        filter: brightness(1.1);
+        cursor: pointer;
+        @include dark-shadow;
+    }
+
+    &__text{
+        text-align: center;
+        color: $white;
+        padding-top: 12px;
+    }
+}
